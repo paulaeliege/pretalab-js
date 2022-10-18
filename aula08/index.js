@@ -23,7 +23,7 @@ function bemVinda() {
 function mudaCor() {
     let corFonte = document.querySelector('#bemVinda').style.color
     console.log(corFonte)
-    if (corFonte == '' || corFonte == 'rgb9(0, 0, 0)') {
+    if (corFonte == '' || corFonte == 'rgb(0, 0, 0)' ) {
         document.querySelector('#bemVinda').style.color = '#A020F0'
     } else {
         document.querySelector('#bemVinda').style.color = '#000000'
